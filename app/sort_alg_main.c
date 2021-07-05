@@ -3,9 +3,11 @@
  * @author: xxx
  * @brief: xxx
  * @version: 1.0.0
- * @LastEditTime: 2021-07-05 21:10:52
+ * @LastEditTime: 2021-07-05 23:18:46
  * @attention: https://zhuanlan.zhihu.com/p/42541704
  *************************************************************************/
+
+#if 0
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +15,7 @@
 #include <time.h>  
 
 #include "os_time.h"
-#include "os_alg_sort.h"
+#include "os_alg_data_sort.h"
 
 #define TEST_DATA_SIZE  (1024 * 500)
 
@@ -71,3 +73,5 @@ static void __print_all_array(int array[],int length)
 
     printf("\n************数组元素打印结束，总数量：%d \n",i);
 }
+
+#endif
