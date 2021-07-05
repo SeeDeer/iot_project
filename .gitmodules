@@ -1,0 +1,6 @@
+[submodule "os_algorithm"]
+	path = os_algorithm
+	url = https://github.com/SeeDeer/os_algorithm.git
+[submodule "os_time"]
+	path = os_time
+	url = https://github.com/SeeDeer/os_time.git
